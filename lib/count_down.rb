@@ -4,7 +4,7 @@ countdown = 10
 while countdown >= 1
   puts countdown
   countdown -= 1
-else
+  if countdown == 0
   puts "Happy New Year!"
   # if countdown == 0
   # puts "Happy New Year!"
