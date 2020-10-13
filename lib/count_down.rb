@@ -14,9 +14,14 @@
 # end
 
 
+# 
+
+
+magic_num = 7
 count = 0
 
-while count < 3 do 
+while count < 10 do
+  break if count == magic_num
   puts "I am the #{count}, I love to count!"
-  count = count + 1
+  count += 1
 end
