@@ -20,7 +20,7 @@
 magic_num = 7
 count = 0
 
-while count < 10 do
+while count < 10 && count != magic_num do
   break if count == magic_num
   puts "I am the #{count}, I love to count!"
   count += 1
